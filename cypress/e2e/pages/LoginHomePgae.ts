@@ -7,7 +7,6 @@ export class LoginHomePage {
     loginButton: () => cy.get('[data-test="login-button"]'),
   };
 
-
 }
 
 export const loginHomePage = new LoginHomePage()
