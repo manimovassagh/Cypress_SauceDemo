@@ -1,6 +1,5 @@
-import { LoginHomePage } from '../pages/LoginHomePgae';
+import { loginHomePage } from "../pages/LoginHomePgae"
 
-const loginHomePage = new LoginHomePage()
 export  class Login{
 
     initLogin(){

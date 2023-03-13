@@ -1,6 +1,5 @@
 import { loginHomePage } from './../pages/LoginHomePgae';
-import { login, Login } from '../actions/Login';
-import { LoginHomePage } from '../pages/LoginHomePgae';
+import { login } from '../actions/Login';
 
 
 describe('Confirm the Login Flow', () => { 
@@ -26,5 +25,4 @@ it('Should successfully enter username, password and Login ', () => {
    cy.url().should('contain','https://www.saucedemo.com/inventory.html')
 });
 
-
- })
+})
