@@ -1,8 +1,8 @@
-import { Login } from '../actions/Login';
+import { loginHomePage } from './../pages/LoginHomePgae';
+import { login, Login } from '../actions/Login';
 import { LoginHomePage } from '../pages/LoginHomePgae';
 
-const loginHomePage= new LoginHomePage() 
-const login=new Login()
+
 describe('Confirm the Login Flow', () => { 
 
 beforeEach(()=>{

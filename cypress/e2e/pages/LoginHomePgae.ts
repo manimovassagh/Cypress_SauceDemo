@@ -1,7 +1,5 @@
 export class LoginHomePage {
 
-
-  
   elements = {
     upperTitle: () => cy.get(".login_logo"),
     userNameInput: () => cy.get('[data-test="username"]'),
@@ -10,7 +8,6 @@ export class LoginHomePage {
   };
 
 
-
-
-
 }
+
+export const loginHomePage = new LoginHomePage()
